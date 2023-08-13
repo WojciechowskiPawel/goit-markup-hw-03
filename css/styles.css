@@ -2,12 +2,23 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 :root {
   --brand-color: #2196f3;
   --first-text-color: #212121;
   --second-text-color: #ffffff;
   --third-text-color: #757575;
 }
+nav {
+  display: flex;
+  gap: 3446px;
+  margin: 32px 0px 32px 93px;
+}
+
 .logo {
   text-decoration: none;
   font-family: "Raleway";
