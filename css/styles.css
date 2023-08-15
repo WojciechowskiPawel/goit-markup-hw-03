@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
+  width: 1600px;
+  letter-spacing: 0.03em;
 }
 
 .container {
@@ -12,10 +14,11 @@ body {
   --first-text-color: #212121;
   --second-text-color: #ffffff;
   --third-text-color: #757575;
+  --background-dark: #2f303a;
 }
 nav {
   display: flex;
-  gap: 3446px;
+  gap: 46px;
   margin: 32px 0px 32px 93px;
 }
 
@@ -40,6 +43,9 @@ nav {
   line-height: 1.14;
   color: var(--first-text-color);
 }
+.background-dark {
+  background-color: var(--background-dark);
+}
 .menu:focus,
 .menu:hover {
   color: var(--brand-color);
@@ -49,7 +55,16 @@ nav {
   font-size: 44px;
   line-height: 1.36;
   color: var(--second-text-color);
-  background-color: #ac0b0b;
+}
+.button-main-page {
+  background-color: var(--brand-color);
+  color: var(--second-text-color);
+  font-weight: 700;
+  line-height: 1.875;
+  width: 200px;
+  padding: 10px 0;
+  margin: 30px 500px 200px 500px;
+  letter-spacing: 0.06em;
 }
 .index-button {
   font-weight: 700;
