@@ -45,6 +45,13 @@ nav {
 }
 .background-dark {
   background-color: var(--background-dark);
+
+  height: 600px;
+  flex-shrink: 0;
+
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 200px 0;
 }
 .menu:focus,
 .menu:hover {
@@ -55,6 +62,19 @@ nav {
   font-size: 44px;
   line-height: 1.36;
   color: var(--second-text-color);
+
+  text-align: center;
+
+  font-style: normal;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.06em;
+
+  max-width: 696px;
+
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 .button-main-page {
   background-color: var(--brand-color);
