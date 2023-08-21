@@ -4,20 +4,35 @@ body {
   width: 1600px;
   letter-spacing: 0.03em;
 }
-h1, h2, h3, h4, h5, h6, p, ul {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-    list-style-type: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style-type: none;
 }
 .container {
   width: 1200px;
   margin: 0 auto;
-  
 }
+.navigation {
+    font-weight: 500;
+    font-size 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 15px 25px 15px;
+    letter-spacing: 0.02em;
+    }
 :root {
   --brand-color: #2196f3;
   --first-text-color: #212121;
@@ -36,11 +51,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .nav-menu-second {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  
   gap: 50px;
   margin-left: 364px;
 }
-.agencja-pad {
+.agency-pad {
   padding-left: 93px;
 }
 .kontakt-pad {
@@ -54,6 +69,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
+  letter-spacing: 0.03em;
 }
 .web {
   color: var(--brand-color);
