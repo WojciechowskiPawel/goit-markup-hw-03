@@ -25,14 +25,13 @@ ul {
   margin: 0 auto;
 }
 .navigation {
-    font-weight: 500;
-    font-size 14px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 15px 25px 15px;
-    letter-spacing: 0.02em;
-    }
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 15px 25px 15px;
+  letter-spacing: 0.02em;
+}
 :root {
   --brand-color: #2196f3;
   --first-text-color: #212121;
@@ -45,15 +44,12 @@ ul {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
   margin-left: 15px;
 }
 .nav-menu-second {
   display: flex;
   justify-content: flex-end;
-  
   gap: 50px;
-  margin-left: 364px;
 }
 .agency-pad {
   padding-left: 93px;
@@ -71,6 +67,10 @@ ul {
   color: #000000;
   letter-spacing: 0.03em;
 }
+.mail-pad {
+  padding-right: 50px;
+}
+
 .web {
   color: var(--brand-color);
 }
@@ -87,10 +87,8 @@ ul {
 }
 .background-dark {
   background-color: var(--background-dark);
-
   height: 600px;
   flex-shrink: 0;
-
   margin: 0 auto;
   max-width: 1600px;
   padding: 200px 0;
@@ -104,17 +102,11 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   color: var(--second-text-color);
-
   text-align: center;
-
   font-style: normal;
-
   text-transform: uppercase;
-
   letter-spacing: 0.06em;
-
   max-width: 696px;
-
   margin: 0 auto;
   flex-wrap: wrap;
 }
