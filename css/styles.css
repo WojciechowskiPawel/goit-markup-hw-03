@@ -222,7 +222,7 @@ ul {
   line-height: 1.19;
   color: var(--third-text-color);
 }
-.footer {
+.footer-box {
   background-color: var(--background-dark);
   height: 252px;
   flex-shrink: 0;
@@ -231,15 +231,15 @@ ul {
   padding-bottom: 20px;
 }
 
-.footer{
-    padding: 60px 0px 60px 15px;
+.footer-box {
+  padding: 60px 0px 60px 15px;
 }
 
-.footer :not(:first-child){
-    font-size: 14px;
-    line-height: 1.7;
-    padding-bottom: 9px;
+.footer-box :not(:first-child) {
+  font-size: 14px;
+  line-height: 1.7;
+  padding-bottom: 1px;
 }
-.footer :nth-child(1){
-    padding-bottom: 20px;
+.footer-box :nth-child(1) {
+  padding-bottom: 20px;
 }
