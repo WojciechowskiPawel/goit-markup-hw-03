@@ -74,9 +74,7 @@ ul {
 .web {
   color: var(--brand-color);
 }
-.list {
-  list-style-type: none;
-}
+
 .menu {
   text-decoration: none;
   font-weight: 500;
@@ -222,7 +220,7 @@ ul {
   line-height: 1.19;
   color: var(--third-text-color);
 }
-.footer-box {
+.footer {
   background-color: var(--background-dark);
   height: 252px;
   flex-shrink: 0;
@@ -230,16 +228,15 @@ ul {
   max-width: 1600px;
   padding-bottom: 20px;
 }
-
-.footer-box {
+.footer{
   padding: 60px 0px 60px 15px;
 }
 
-.footer-box :not(:first-child) {
+.footer :not(:first-child) {
   font-size: 14px;
   line-height: 1.7;
   padding-bottom: 1px;
 }
-.footer-box :nth-child(1) {
+.footer :nth-child(1) {
   padding-bottom: 20px;
 }
