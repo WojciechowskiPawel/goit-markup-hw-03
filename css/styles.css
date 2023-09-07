@@ -220,23 +220,23 @@ ul {
   line-height: 1.19;
   color: var(--third-text-color);
 }
-.footer {
+.contact-footer {
   background-color: var(--background-dark);
   height: 252px;
   flex-shrink: 0;
   margin: 0 auto;
   max-width: 1600px;
-  padding-bottom: 20px;
 }
-.footer{
-  padding: 60px 0px 60px 15px;
+.contanct-footer {
+  padding: 10px 0px 60px 15px;
 }
 
-.footer :not(:first-child) {
+
+.contact-footer :not(:first-child) {
   font-size: 14px;
   line-height: 1.7;
-  padding-bottom: 1px;
+  padding-bottom: 9px;
 }
-.footer :nth-child(1) {
+.contact-footer :nth-child(1) {
   padding-bottom: 20px;
 }
