@@ -91,6 +91,9 @@ ul {
   max-width: 1600px;
   padding: 200px 0;
 }
+.background-dark-footer {
+  background-color: var(--background-dark);
+}
 .menu:focus,
 .menu:hover {
   color: var(--brand-color);
@@ -226,11 +229,10 @@ ul {
   flex-shrink: 0;
   margin: 0 auto;
   max-width: 1600px;
-  padding-bottom: 20px;
+  
+  
 }
-.contanct-footer {
-  padding: 10px 0px 60px 15px;
-}
+
 
 .contact-footer :not(:first-child) {
   font-size: 14px;
