@@ -67,6 +67,23 @@ ul {
   color: #000000;
   letter-spacing: 0.03em;
 }
+
+.logo-foot {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #FFFF;
+  letter-spacing: 0.03em;
+  font-style: normal; 
+  
+}
+
+
+
+
+
 .mail-pad {
   padding-right: 50px;
 }
