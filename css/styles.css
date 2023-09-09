@@ -80,10 +80,6 @@ ul {
   
 }
 
-
-
-
-
 .mail-pad {
   padding-right: 50px;
 }
@@ -108,9 +104,7 @@ ul {
   max-width: 1600px;
   padding: 200px 0;
 }
-.background-dark-footer {
-  background-color: var(--background-dark);
-}
+
 .menu:focus,
 .menu:hover {
   color: var(--brand-color);
@@ -242,22 +236,27 @@ ul {
   line-height: 1.19;
   color: var(--third-text-color);
 }
-.contact-footer {
+.background-dark-footer {
+  background-color: var(--background-dark);
+  padding: 60px 0px 60px 15px;
+}
+.background-dark-footer {
   background-color: var(--background-dark);
   height: 252px;
   flex-shrink: 0;
   margin: 0 auto;
   max-width: 1600px;
   
+
   
 }
 
 
-.contact-footer :not(:first-child) {
+.background-dark-footer :not(:first-child) {
   font-size: 14px;
   line-height: 1.7;
   padding-bottom: 9px;
 }
-.contact-footer :nth-child(1) {
+.background-dark-footer :nth-child(1) {
   padding-bottom: 20px;
 }
