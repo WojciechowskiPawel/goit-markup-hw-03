@@ -203,11 +203,13 @@ ul {
   color: #ffffff99;
 }
 
+
 .contact-footer:focus,
 .contact-footer:hover {
   color: var(--brand-color);
 }
-.foot-address {
+.foot-adress {
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.7;
   color: var(--second-text-color);
