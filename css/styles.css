@@ -257,14 +257,14 @@ ul {
 .background-dark-footer :nth-child(1) {
   padding-bottom: 20px;
 }
-.list{
+.list-lorem{
 
 display: flex;
+padding-bottom: 94px;
+justify-content: space-around;
+padding: 94px 0 94px 0;
 }
-.list .space-evenly {
+.list-lorem {
+   
+    }
   
-  justify-content: space-evenly;
-}
-.feature-title {
-  margin: 94px 0 10px 0;
-}
