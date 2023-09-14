@@ -258,9 +258,13 @@ ul {
   padding-bottom: 20px;
 }
 .list{
+
 display: flex;
 }
 .list .space-evenly {
   
   justify-content: space-evenly;
+}
+.feature-title {
+  margin: 94px 0 10px 0;
 }
