@@ -74,10 +74,9 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #FFFF;
+  color: #ffff;
   letter-spacing: 0.03em;
-  font-style: normal; 
-  
+  font-style: normal;
 }
 
 .mail-pad {
@@ -177,6 +176,8 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   color: var(--first-text-color);
+  display: flex;
+  justify-content: center;
 }
 .contact-link-header {
   text-decoration: none;
@@ -196,7 +197,6 @@ ul {
   line-height: 1.7;
   color: #ffffff99;
 }
-
 
 .contact-footer:focus,
 .contact-footer:hover {
@@ -248,7 +248,6 @@ ul {
   max-width: 1600px;
 }
 
-
 .background-dark-footer :not(:first-child) {
   font-size: 14px;
   line-height: 1.7;
@@ -257,14 +256,13 @@ ul {
 .background-dark-footer :nth-child(1) {
   padding-bottom: 20px;
 }
-.list-lorem{
-
-display: flex;
-padding-bottom: 94px;
-justify-content: space-around;
-padding: 94px 0 94px 0;
-}
 .list-lorem {
-   
-    }
-  
+  display: flex;
+  padding-bottom: 94px;
+  justify-content: space-around;
+  padding: 94px 0 94px 0;
+}
+.list-display {
+  display: flex;
+  justify-content: space-around;
+}
