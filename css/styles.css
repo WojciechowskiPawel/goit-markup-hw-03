@@ -38,6 +38,9 @@ ul {
   --second-text-color: #ffffff;
   --third-text-color: #757575;
   --background-dark: #2f303a;
+  --img-shadow-first: #0000001F;
+    --img-shadow-second: #00000024;
+    --img-shadow-third: #00000033;
 }
 
 .nav-menu-first {
@@ -178,6 +181,7 @@ ul {
   color: var(--first-text-color);
   display: flex;
   justify-content: center;
+  padding: 50px;
 }
 .contact-link-header {
   text-decoration: none;
@@ -266,3 +270,14 @@ ul {
   display: flex;
   justify-content: space-around;
 }
+.container-team {
+  background: #F5F4FA;;
+  height: 648px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 94px 215px 512px 215px;
+}
+.person {
+    box-shadow: 0px 1px 3px var(--img-shadow-first), 0px 1px 1px var(--img-shadow-second), 0px 2px 1px var(--img-shadow-third);
+border-radius: 0px 0px 4px 4px;}
